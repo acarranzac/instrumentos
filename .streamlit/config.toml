@@ -1,0 +1,15 @@
+[theme]
+base = "light"
+primaryColor = "#333333"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f0f0"
+textColor = "#1a1a1a"
+borderColor = "#cccccc"
+font = "Roboto:https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+headingFont = "Roboto:https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+
+[theme.sidebar]
+backgroundColor = "#f5f5f5"
+secondaryBackgroundColor = "#e8e8e8"
+textColor = "#1a1a1a"
+borderColor = "#cccccc"

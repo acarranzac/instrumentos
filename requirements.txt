@@ -1,0 +1,5 @@
+Pillow>=10.0.0
+basic-pitch>=0.2.0
+numpy>=1.24.0
+pretty_midi>=0.2.0
+streamlit>=1.28.0
