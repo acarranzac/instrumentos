@@ -2,7 +2,6 @@ import wave
 from pathlib import Path
 
 from PIL import Image
-from basic_pitch.inference import predict
 
 
 def get_output_paths(image_path: str) -> tuple[str, str]:
@@ -56,6 +55,8 @@ def wav_to_midi(
     transpose_semitones: int = 6,
 ) -> None:
     """Transcribe WAV to MIDI using Basic Pitch model."""
+    from basic_pitch.inference import predict
+    
     if not Path(wav_path).exists():
         raise FileNotFoundError(f"WAV file not found: {wav_path}")
     
